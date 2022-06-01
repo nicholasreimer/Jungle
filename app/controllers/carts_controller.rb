@@ -1,5 +1,6 @@
 class CartsController < ApplicationController
 
+  # -this method renders the view associated with show (show.html.erb)
   def show
   end
 
@@ -17,6 +18,7 @@ class CartsController < ApplicationController
     redirect_back fallback_location: root_path
   end
 
+  # -any methods below private are sperated from the code above, which makes them similiar to helper functions
   private
 
   def modify_cart_delta(product_id, delta)
