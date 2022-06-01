@@ -1,7 +1,7 @@
 class CartsController < ApplicationController
 
   # -this method renders the view associated with show (show.html.erb)
-  def show
+  def show 
   end
 
   def add_item
