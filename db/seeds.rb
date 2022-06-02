@@ -29,6 +29,7 @@ cat1 = Category.find_or_create_by! name: 'Evergreens'
 cat2 = Category.find_or_create_by! name: 'Shrubs'
 cat3 = Category.find_or_create_by! name: 'Trees'
 
+
 ## PRODUCTS
 
 puts "Re-creating Products ..."
