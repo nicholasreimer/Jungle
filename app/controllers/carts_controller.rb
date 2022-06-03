@@ -1,5 +1,7 @@
 class CartsController < ApplicationController
 
+before_filter :authorize
+
   # -this method renders the view associated with show (show.html.erb)
   def show 
   end
